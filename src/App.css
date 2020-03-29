@@ -1,4 +1,9 @@
 
+  
+  
+
+
+
 .aboutpage{
   padding-bottom: 100px;
   display: block;
@@ -8,9 +13,9 @@ padding-left: 100px;
 }
 .containerMail{
   padding-bottom: 100px;
-  display: block;
+  display: flex;
 padding-right:100px;
-padding-left: 300px;
+padding-left: 100px;
   justify-content: center;
  }
 
@@ -53,7 +58,7 @@ justify-content: center;
   background-repeat: cover;
   border-radius: 5px;
   padding-bottom: 100px;
-  display: block;
+  display: flex;
  padding-left: 320px;
  padding-right: 320px;
  justify-content: center;
@@ -100,25 +105,6 @@ font-size: 20px;
   padding-right: 300px;
  }
 
- /*
-.styles_question__3qxRo{
-    color:white;
-}
-
-.styles_answer__1w8xb{
-  color:white;
-}
-
-.animate_animated__20131{
-  color: white;
-}
-
-.styles_labels__2rz-F{
-  color: white;
-
-}
-*/
-
 
 .Pages{
   background: #ee9ca7;  /* fallback for old browsers */
@@ -128,7 +114,7 @@ font-size: 20px;
 }
 
 .social-links{
-  justify-content:space-between;
+  justify-content:center;
   display: flex;
   width: 100%;
   
@@ -138,13 +124,15 @@ font-size: 20px;
     color:white;
     font-size: 4em;
     padding-top: 100px;
-    padding-left:200px;
+    padding-left:100px;
     padding-right:100px;
     
   }
 
   .mailme{
       padding: 1rem;
+      display: flex;
+      justify-content:center;
   }
 
   /*@media screen and (max-width: 600px) {

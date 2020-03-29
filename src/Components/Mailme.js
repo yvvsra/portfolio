@@ -50,7 +50,7 @@ export default class Mailme extends React.Component {
         <label><Title>Your Name:</Title></label>
         <input type="text" name="name" />
         <div className="form-group">
-        <label className="col-md-3 control-label" htmlFor="message"><Title>Your message:</Title></label>
+        <label className="col-md-3 control-label" htmlFor="message"><Title>Message:</Title></label>
         <div className="col-md-9">
           <textarea className="form-control" id="message" name="message" placeholder="Please enter your message here..." rows={5} defaultValue={""} />
         </div>

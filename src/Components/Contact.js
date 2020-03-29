@@ -1,9 +1,7 @@
 //Contact project: includes your linked, github and whatever contact you want to share
 import React from 'react'
 import Wrapper from './Wrapper';
-import {Link} from 'react-router';
-import mailme from './Mailme';
-import styled from 'styled-components'
+  import styled from 'styled-components'
 
  const Title = styled.h1`
   font-size: 4em;
@@ -17,7 +15,7 @@ import styled from 'styled-components'
 
 function Contact(){
     return (
-        
+        <div className="container">
     <Wrapper>
      <Title> Find me here </Title>
      <div className="social-links">
@@ -39,7 +37,8 @@ function Contact(){
           <i className="fa fa-envelope" aria-hidden="true"></i>
       </a>   
           </div>
-          </Wrapper>
+          </Wrapper>]
+          </div>
     )
 }
 export default Contact;
