@@ -1,10 +1,8 @@
 import React ,{Component} from 'react';
 import Main from './Components/Main'
 import {Content,Layout} from 'react-mdl'
-import Contact from './Components/Contact'
-import './App.css';
-import {Link} from 'react-router-dom'
-
+ import './App.css';
+ 
  
 export default class App extends Component {
   render() {

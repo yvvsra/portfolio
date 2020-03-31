@@ -1,9 +1,7 @@
 //includes your CV implemented in the same way you learnt from thinkific career prep course.
 import React, {Component} from 'react'
 import Wrapper from './Wrapper';
-import {Link} from 'react-router';
-import mailme from './Mailme';
-import styled from 'styled-components';
+ import styled from 'styled-components';
 import '../App.css'
  
 const Title = styled.h1`

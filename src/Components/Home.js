@@ -1,6 +1,6 @@
 //HOME PAGE WORKS 
 
-import React, { useState } from 'react'
+import React from 'react'
    import styled, {keyframes} from 'styled-components'
   import {bounce} from 'react-animations'
   import Fade from 'react-reveal/Fade';
