@@ -37,7 +37,7 @@ function Contact(){
           <i className="fa fa-envelope" aria-hidden="true"></i>
       </a>   
           </div>
-          </Wrapper>]
+          </Wrapper>
           </div>
     )
 }
